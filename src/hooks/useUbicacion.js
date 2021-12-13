@@ -6,9 +6,6 @@ export const useUbicacion = () => {
   const [donde, setDonde] = useState("");
   const [watch, setWatch] = useState(false);
 
-  let requestOptions = {
-    method: "GET",
-  };
 
   const { latitude, longitude } = usePosition(watch, {
     enableHighAccuracy: true,

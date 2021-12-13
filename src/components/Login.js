@@ -1,10 +1,8 @@
-import React, { useContext } from 'react'
+import React from 'react'
 import { FormControl, FormLabel } from "@chakra-ui/form-control";
 import { Text, Box } from '@chakra-ui/layout'
 import { Button } from '@chakra-ui/button'
-import { AuthContext } from './authContext'
-import { login, loginEmailPassword, loginGoogle, loginFacebook } from '../actions/loginAction';
-import { useNavigate } from 'react-router'
+import { loginEmailPassword, loginGoogle, loginFacebook } from '../actions/loginAction';
 import { useDispatch } from 'react-redux';
 import { Link } from "react-router-dom";
 import { useForm } from '../hooks/useForm';

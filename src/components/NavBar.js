@@ -1,7 +1,7 @@
 import { Box, Flex, Text } from '@chakra-ui/layout'
 import { Input } from '@chakra-ui/react'
 import { Link } from '@chakra-ui/layout'
-import React, { useContext } from 'react'
+import React from 'react'
 import { NavLink } from 'react-router-dom'
 import { startLogout } from '../actions/loginAction'
 import { useNavigate } from 'react-router'

@@ -1,7 +1,6 @@
 import { getAuth, signInWithEmailAndPassword, signInWithPopup, signOut } from "@firebase/auth"
 import { google, facebook } from "../firebase/firebase"
 import { types } from "../types/types"
-import Swal from "sweetalert2";
 
 export const login = (id, displayname) => {
     return {

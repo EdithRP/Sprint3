@@ -1,13 +1,5 @@
 import { types } from "../types/types";
 
-const menorReducer = (state = [], action) =>{
-    switch (action.type){
-        case types.menorproducto:
-          return action.payload
-        default:
-            return state
-    }
-}
 
 const vendidasReducer = (state = [], action) =>{
     switch (action.type){
@@ -27,4 +19,4 @@ const productosReducer = (state = [], action) =>{
     }
 }
 
-export {productosReducer, vendidasReducer, menorReducer}
+export {productosReducer, vendidasReducer}

@@ -4,11 +4,11 @@ import { Text, Box } from '@chakra-ui/layout'
 import { Button } from '@chakra-ui/button'
 import { useDispatch } from 'react-redux';
 import { Link } from "react-router-dom";
-import { register, registerEmailPassword } from '../actions/registerAction';
+import { registerEmailPassword } from '../actions/registerAction';
 import { useForm } from '../hooks/useForm';
 import '../styles/style.css'
 import { Input } from '@chakra-ui/react'
-import { login, loginEmailPassword, loginGoogle } from '../actions/loginAction';
+import { loginGoogle } from '../actions/loginAction';
 
 const Registro = () => {
 
